@@ -9,30 +9,30 @@
     <link rel="stylesheet" href="input.css">
     <title>IndorePlants</title>
 </head>
-<body>
+<body class="bg-green-950 text-white font-Jost tracking-wider">
 <!-------------------------------------------- Header --------------------------------------------------->
-<head id="navbar">
-    <nav>
-        <div>IndorePlants.</div>
-        <div>
-            <ul>
+<head id="navbar" class="bg-green-950 fixed w-full top-0 left-0 z-50">
+    <nav class="container flex items-center justify-between h-16 sm:h-20">
+        <div class="font-Lobster sm:text-2xl">IndorePlants.</div>
+        <div id="nav-menu" class="absolute top-0 left-[-100%] min-h-[80vh] w-full bg-green-950/80 backdrop-blur-sm flex items-center justify-center duration-300 overflow-hidden">
+            <ul class="flex flex-col items-center gap-8">
                 <li>
-                    <a href="#Home" class="nav-link">Home</a>
+                    <a href="#Home" class="nav-link text-lg font-bold duration-300 hover:text-yellow-500">Home</a>
                 </li>
                 <li>
-                    <a href="#About" class="nav-link">About</a>
+                    <a href="#About" class="nav-link text-lg font-bold duration-300 hover:text-yellow-500">About</a>
                 </li>
                 <li>
-                    <a href="#Popular" class="nav-link">Popular</a>
+                    <a href="#Popular" class="nav-link text-lg font-bold duration-300 hover:text-yellow-500">Popular</a>
                 </li>
                 <li>
-                    <a href="#Review" class="nav-link">Review</a>
+                    <a href="#Review" class="nav-link text-lg font-bold duration-300 hover:text-yellow-500">Review</a>
                 </li>
             </ul>
-            <div>
+            <div class="absolute bottom-0 -right-10 opacity-90">
                 <img src="assets/img/leaf-1.png" alt="" class="w-32">
             </div>
-            <div>
+            <div class="absolute -top-5 -left-5 rotate-90 opacity-90">
                 <img src="assets/img/leaf-2.png" alt="" class="w-32">
             </div>
         </div>
